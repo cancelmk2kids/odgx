@@ -81,9 +81,12 @@ h1 span {
 .odgxlogo {
     margin-left: 100px;
     margin-top: 20px;
+    background-color: white;
+    border-color: white;
 }
 
-/* Beschreibung */
+/* Button zum Scrollen nach oben */
+
 #scrollToTop {
     position: fixed;
     right: 20px;
@@ -96,6 +99,9 @@ h1 span {
     cursor: pointer;
 }
 
+#scrollToTop:hover {
+    background-color: #026bce;
+}
 
 
 @media (max-width:991px) {
@@ -148,3 +154,4 @@ h1 span {
         font-size: 16px;
     }
 }
+
